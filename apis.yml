@@ -1,11 +1,33 @@
 aid: torch
 name: Torch
-description: 'Torch is a company surfaced as a portfolio company of initialized-capital, kindred-ventures,
-  norwest-venture-partners, obvious-ventures and added to the API Evangelist network as a stub for enrichment.
-  Sector: enterprise-saas. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Torch (Redfish Labs, Inc. dba Torch Leadership Labs) is a leadership
+  development and executive coaching platform that pairs expert human coaches with
+  AI to help mid-market and enterprise organizations grow leaders and navigate change.
+  Its offerings include Change Coaching (leaders-turned-coaches trained in Torch''s
+  change approach), the Spark AI coaching agent (always-on AI guidance for practicing
+  conversations and turning insight into progress), and Organizational Intelligence
+  (real-time visibility into change patterns and people dynamics). Torch focuses on
+  AI transformation, organizational restructuring, organizational resilience, and
+  leadership growth, and counts Airbnb, Reddit, Tripadvisor, FICO, and Twitch among
+  its customers. Torch is a SaaS product with SSO (SAML), Zoom, and Slack integrations
+  but publishes no public developer API; this profile captures its public identity
+  and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/torch/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://torch.io/images/milos/app/images/torch_meta_tag_2025.5bb0a0f09e75035c.png
 x-type: company
 x-source: vc-portfolio
+x-legal-entity: Redfish Labs, Inc. dba Torch Leadership Labs
 x-backed-by:
 - initialized-capital
 - kindred-ventures
@@ -13,12 +35,21 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise Saas
+- Leadership Development
+- Executive Coaching
+- Coaching
+- Learning And Development
+- Talent Development
+- AI Agent
+- Organizational Change
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,3 +59,24 @@ maintainers:
 common:
 - type: Website
   url: https://torch.io
+- type: Blog
+  url: https://torch.io/blog/
+- type: Support
+  url: https://help.torch.io/
+- type: Login
+  url: https://app.torch.io/
+- type: TermsOfService
+  url: https://torch.io/terms-of-use/
+- type: PrivacyPolicy
+  url: https://torch.io/privacy-policy/
+- type: Security
+  url: https://torch.io/vulnerability-disclosure/
+- type: VulnerabilityDisclosure
+  url: security/torch-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/torch-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
